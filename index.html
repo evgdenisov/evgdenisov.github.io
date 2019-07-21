@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>dreamer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="/build.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.2/firebase-database.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      let firebaseConfig = {
+        apiKey: "AIzaSyDsDna4Re7CH-ZH3PCMTzgcOHNeFOhQx1U",
+        authDomain: "dreamer-online.firebaseapp.com",
+        databaseURL: "https://dreamer-online.firebaseio.com",
+        projectId: "dreamer-online",
+        storageBucket: "dreamer-online.appspot.com",
+        messagingSenderId: "502101681379",
+        appId: "1:502101681379:web:34e4cede3e9c4422"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      document.querySelectorAll('.onLoaded')[0].click();
+</script>
+  </body>
+</html>
